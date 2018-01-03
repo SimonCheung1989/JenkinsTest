@@ -8,7 +8,7 @@ pipeline {
       }
     }
 
-    stagre('Test') {
+    stage('Test') {
       steps {
         echo 'Test...'
       }
