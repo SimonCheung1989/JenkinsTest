@@ -1,5 +1,10 @@
 node {
   stage('Stage1') {
-    sh 'echo "Stage1..."'
+     sayHello('Simon')
+     sh 'echo "Stage1..."'
   }
+}
+
+def sayHello(name) {
+  print(name)
 }
